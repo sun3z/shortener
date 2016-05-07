@@ -1,0 +1,43 @@
+div#container {
+	padding-top:100px;
+	text-align:center;
+	width:75%;
+	margin:auto;
+	border-radius:4px
+}
+div#container h2 {
+	font-family:Arial,sans-serif;
+	font-size:28px;
+	color:#555
+}
+div#container h3 {
+	font-family:Arial,sans-serif;
+	font-size:28px
+}
+div#container h3.error {
+	color:#a00
+}
+div#container h3.success {
+	color:#0a0
+}
+div#container input {
+	display:block;
+	width:90%;
+	float:left;
+	font-size:24px;
+	border-radius:5px
+}
+div#error,div#success {
+	border-radius:3px;
+	display:block;
+	width:90%;
+	padding:10px
+}
+div#error {
+	background:#ff8080;
+	border:1px solid red
+}
+div#success {
+	background:#80ff80;
+	border:1px solid #0f0
+}
